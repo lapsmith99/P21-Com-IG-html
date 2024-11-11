@@ -1,0 +1,458 @@
+/*
+  Copyright 2022 Pinnacle 21, Inc.
+  
+  OpenCDISC Validator is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Lesser General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  OpenCDISC Validator is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Lesser General Public License for more details.
+  
+  You should have received a copy of the GNU Lesser General Public License
+  along with OpenCDISC Validator.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/**************/
+/* Page
+/**************/
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+
+article,aside,figcaption,figure,footer,header,hgroup,main,nav,section {
+    display: block
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    text-align: left;
+    background-color: #eee
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.1)
+}
+
+/**************/
+/* Typography
+/**************/ 
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #555;
+}
+
+h1,.h1 {
+    font-size: 1.75rem;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+h2, .h2 {
+    font-size: 1.5rem
+}
+
+h3,.h3 {
+    font-size: 1.25rem
+}
+
+h4,.h4 {
+    font-size: 1.3125rem
+}
+
+h5,.h5 {
+    font-size: 1.09375rem
+}
+
+h6,.h6 {
+    font-size: .875rem
+}
+
+.title {
+	margin-bottom: 1rem;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+	line-height: 1.5;
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+small,.small {
+    font-size: 80%;
+    font-weight: 400
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+/**************/
+/* Icons
+/**************/ 
+.icon-status {
+	display: block;
+	margin: 0 auto;
+}
+
+.icon-inline {
+	display: inline-block;
+	margin-right: 0.25rem;
+	vertical-align: baseline;
+}
+
+
+/**************/
+/* Lists
+/**************/ 
+ol,ul,dl {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+ol ol,ul ul,ol ul,ul ol {
+    margin-bottom: 0
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none
+}
+
+.list-inline-item {
+    display: inline-block
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem
+}
+
+
+/*****************/
+/* Links
+/*****************/
+a, .link {
+    color: #2cb0bc;
+    text-decoration: none;
+    background-color: transparent
+}
+
+a:hover, link:hover {
+    color: #1696a3;
+    text-decoration: none
+}
+
+a:not([href]):not([class]) {
+    color: inherit;
+    text-decoration: none
+}
+
+a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+
+/*****************/
+/* Layout
+/*****************/
+.header {
+	display: block;
+	width: 100%;
+	background: #222;
+	padding: 1rem;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.validator {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.card {
+	padding: 1.25rem;
+	background: #ffffff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	overflow-x: auto;
+}
+
+.card-footer {
+	margin: 1rem auto;
+	text-align: center;
+}
+
+.content {
+	flex: 3 1 auto;
+	width: calc(100% - 360px);
+}
+
+.content-header {
+	padding: 0.5rem 1.25rem;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	border-bottom: 1px solid #ddd;
+}
+
+
+/*********************/
+/* Navigation
+/*********************/
+.nav {
+	position: relative;
+	position: sticky;
+	top: 0;
+	flex: 1 2 30%; 
+	margin-right: 10px;
+	max-width: 350px;
+	min-width: 275px;
+}
+
+.nav-bar {
+	margin: 0;
+	padding-left: 1rem;
+	list-style-type: none;
+}
+
+.nav-item {
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #ddd;;
+}
+
+.nav-item:last-of-type {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+
+/*********************/
+/* Tables
+/*********************/
+
+table {
+  border-collapse: collapse;
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+th {
+	padding: 0.5rem 1rem;
+    vertical-align: middle;
+	color: #fff;
+    text-align: left;
+    border: 0;
+    background: #5e5e5e;
+}
+
+td {
+	padding: 0.5rem 1rem;
+	border-bottom: 1px solid #ddd;
+}
+
+tr.even td {
+	background-color: #f9f9f9;
+}
+
+tr.odd td {
+	background-color: #ffffff;
+}
+
+tbody {
+  border-top: 1px solid #ddd
+}
+
+caption {
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: normal;
+	caption-side: top;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+
+/*********************/
+/* Validator (Deprecated)
+/*********************/
+.message-type, .severity {
+	/*padding-left: 1.75rem;*/
+	background-position: 0.5rem 50%;
+	background-repeat: no-repeat;
+	background-size: 1rem;
+}
+
+.validator td.severity-high {
+	padding-left: 1.75rem;
+	background-image: url(../images/hex-red.svg);
+} 
+
+.validator td.severity-medium {
+	padding-left: 1.75rem;
+	background-image: url(../images/hex-blue.svg);
+} 
+
+.validator td.severity-low {
+	padding-left: 1.75rem;
+	background-image: url(../images/hex-green.svg);
+} 
+
+.validator td.error {
+	padding-left: 1.75rem;
+	background-image: url(../images/hexagon-exclamation-regular.svg);
+}
+
+.validator td.warning {
+	padding-left: 1.75rem;
+	background-image: url(../images/triangle-exclamation-regular.svg);
+}
+
+/*
+.validator td.information {
+	background-image: url(../images/square-info-regular.svg);
+}
+*/
+
+/*********************/
+/* Validation Report (Deprecated)
+/*********************/
+#summary {
+  font-size: 1.166em;
+  margin: 20px 0pt;
+  padding: 10px;
+	border: 2px solid #CCCCCC;
+}
+
+#summary ul {
+	list-style:disc;
+	list-style-position: inside;
+}
+
+#summary.error {
+  background-color: #FFF2F2;
+  border-color: #CC0000;
+  color: #B20000;
+}
+
+#summary.warning { 
+  background-color: #FFFCE3; 
+  border-color: #EED300;  
+  color: #C28E00; 
+}
+
+#summary.pass {
+  background-color: #EAFFD5;
+  border-color: #669933;
+  color: #5C8B2E;
+}
+
+
+/*********************/
+/* Messages (Deprecated)
+/*********************/
+table.message {
+	border-top: 1px solid black;
+	margin-bottom: 10px;
+}
+
+table.message th ul { font-weight: normal;}
+table.message th ul li {padding-left: 20px}
+table.message td ul li {padding-left: 20px}
+
+table.error th {
+	padding: 3px;
+	background-color: #FFDDDD; 
+	border-bottom: 1px solid black;
+	border-top: 3px solid black;
+}
+
+table.warning th {
+	padding: 3px;
+	background-color: #F7F8C0;
+	border-bottom: 1px solid black;
+	border-top: 3px solid black;
+}
+
+table.information th {
+	padding: 3px;
+	background-color: #E0EAF3;
+	border-bottom: 1px solid black;
+	border-top: 3px solid black;
+}
+
+table.error td { background-color: #FFF2F2;}
+table.warning td { background-color: #FFFFEE;}
+table.information td { background-color: #eef6ff;}
+
+table.error h3 {
+	padding-left: 1.75rem;
+	background-image: url(../images/hexagon-exclamation-regular.svg);
+	background-position: 0.5rem 50%;
+	background-repeat: no-repeat;
+	background-size: 1rem;
+}
+
+table.warning h3 {
+	padding-left: 1.75rem;
+	background-image: url(../images/triangle-exclamation-regular.svg);
+	background-position: 0.5rem 50%;
+	background-repeat: no-repeat;
+	background-size: 1rem;
+}
+
+table.information h3 {
+	padding-left: 1.75rem;
+	background-image: url(../images/square-info-regular.svg);
+	background-position: 0.5rem 50%;
+	background-repeat: no-repeat;
+	background-size: 1rem;
+}
+
+tr.overridden td{
+	text-decoration: line-through;
+}
