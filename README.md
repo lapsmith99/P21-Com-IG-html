@@ -4,7 +4,7 @@ HTML preview of the P21 community validator rules and available variables with l
 - [Usage](#usage)
 - [Overview](#overview)
 - [Contributing](#contributing)
-- [License](#license)
+- [Source](#source)
 ## Usage
 1. Click on the following links
 ### SDTM 3.4 (FDA)
@@ -34,7 +34,7 @@ While the example above highlights the IS domain, the potential applications ext
 - Streamlined processes for integrating additional variables into existing workflows.
 ## Contributing
 Contributions are welcome! Please create a pull request with your suggestions or report issues for discussion.
-## Source Information
+## Source
 The files in this repository come directly from the p21-Community validator. I have no affiliation with p21-Community. These files can be found inside your local installation of the p21-Community validator. I have only converted them from XML to HTML and made them previewable in a web browser.
 
 
