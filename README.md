@@ -1,5 +1,5 @@
 # HTML-P21-COM
-HTML preview of the P21 community rules and available variables to use.
+HTML preview of the P21 community validator rules and available variables with labels to use.
 ## Table of Contents
 - [Usage](#usage)
 - [Overview](#overview)
