@@ -10,6 +10,8 @@ HTML preview of the P21 community validator rules and available variables with l
 ### SDTM
 - [SDTM 3.4 (FDA)](https://htmlpreview.github.io/?https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.4%20(FDA).html#IG.DM)
 - [SDTM 3.3 (FDA)](https://htmlpreview.github.io/?https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(FDA).html)
+- [SDTM 3.3 (NMPA)](https://htmlpreview.github.io/?https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(NMPA).html)
+- [SDTM 3.3 (PMDA)](https://htmlpreview.github.io/?https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(PMDA).html)
 - [SDTM 3.2 (FDA)](https://htmlpreview.github.io/?https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.2%20(FDA).html)
 - [SDTM 3.1 (FDA)](https://htmlpreview.github.io/?https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG%203.1%20(FDA).html)
 ### ADaM 1.3 
