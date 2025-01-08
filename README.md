@@ -8,15 +8,15 @@ HTML preview of the P21 community validator rules and available variables with l
 ## Usage
 1. Click on the following links
 ### SDTM 3.4 (FDA)
-- https://html-preview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.4%20(FDA).html#IG.DM
+- https://htmlpreview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.4%20(FDA).html#IG.DM
 ### ADaM 1.3 (FDA)
-- https://html-preview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/ADaM-IG%201.3%20(FDA).html
+- https://htmlpreview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/ADaM-IG%201.3%20(FDA).html
 ### SEND 3.1.1 (FDA)
-- https://html-preview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG%203.1.1%20(FDA).html
+- https://htmlpreview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG%203.1.1%20(FDA).html
 ### SEND AR 1.0 (FDA)
-- https://html-preview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG-AR%201.0%20(FDA).html
+- https://htmlpreview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG-AR%201.0%20(FDA).html
 ### SEND DART 1.1 (FDA)
-- https://html-preview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG-DART%201.1%20(FDA).html
+- https://htmlpreview.github.io/?url=https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG-DART%201.1%20(FDA).html
 ## Overview
 The problem arises when comparing the latest SDTM-IG (3.4) guidelines from [CDISC.org](https://cdisc.org) with the extended capabilities provided by p21-Community-validator. For instance, domain like IS (Immunogenicity Specimen Assessments) in SDTM-IG (3.4) only cover the basics. In contrast, p21-Community-validator offers a broader range of variables, such as:
 
