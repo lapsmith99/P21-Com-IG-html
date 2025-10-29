@@ -9,19 +9,19 @@ HTML preview of the P21 community validator rules and available variables with l
 1. Click on the following links
 ### SDTM
 - [SDTM 3.4 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SDTM-IG%203.4%20(FDA).html)
-- [SDTM 3.3 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(FDA).html)
-- [SDTM 3.3 (NMPA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(NMPA).html)
-- [SDTM 3.3 (PMDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(PMDA).html)
-- [SDTM 3.2 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.2%20(FDA).html)
-- [SDTM 3.1 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG%203.1%20(FDA).html)
+- [SDTM 3.3 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SDTM-IG%203.3%20(FDA).html)
+- [SDTM 3.3 (NMPA)](https://lapsmith99.github.io/P21-Com-IG-html/SDTM-IG%203.3%20(NMPA).html)
+- [SDTM 3.3 (PMDA)](https://lapsmith99.github.io/P21-Com-IG-html/SDTM-IG%203.3%20(PMDA).html)
+- [SDTM 3.2 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SDTM-IG%203.2%20(FDA).html)
+- [SDTM 3.1 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SEND-IG%203.1%20(FDA).html)
 ### ADaM 1.3 
-- [ADaM 1.3 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/ADaM-IG%201.3%20(FDA).html)
+- [ADaM 1.3 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/ADaM-IG%201.3%20(FDA).html)
 ### SEND 3.1.1 
-- [SEND 3.1.1 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG%203.1.1%20(FDA).html)
+- [SEND 3.1.1 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SEND-IG%203.1.1%20(FDA).html)
 ### SEND AR 1.0 
-- [SEND AR 1.0 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG-AR%201.0%20(FDA).html)
+- [SEND AR 1.0 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SEND-IG-AR%201.0%20(FDA).html)
 ### SEND DART 1.1 
-- [SEND DART 1.1 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SEND-IG-DART%201.1%20(FDA).html)
+- [SEND DART 1.1 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SEND-IG-DART%201.1%20(FDA).html)
 ## Overview
 The problem arises when comparing the latest SDTM-IG (3.4) guidelines from [CDISC.org](https://cdisc.org) with the extended capabilities provided by p21-Community-validator. For instance, domain like IS (Immunogenicity Specimen Assessments) in SDTM-IG (3.4) only cover the basics. In contrast, p21-Community-validator offers a broader range of variables, such as:
 
