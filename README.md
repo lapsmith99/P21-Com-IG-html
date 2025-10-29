@@ -8,7 +8,7 @@ HTML preview of the P21 community validator rules and available variables with l
 ## Usage
 1. Click on the following links
 ### SDTM
-- [SDTM 3.4 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.4%20(FDA).html)
+- [SDTM 3.4 (FDA)](https://lapsmith99.github.io/P21-Com-IG-html/SDTM-IG%203.4%20(FDA).html)
 - [SDTM 3.3 (FDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(FDA).html)
 - [SDTM 3.3 (NMPA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(NMPA).html)
 - [SDTM 3.3 (PMDA)](https://github.com/lapsmith99/P21-Com-IG-html/blob/main/SDTM-IG%203.3%20(PMDA).html)
